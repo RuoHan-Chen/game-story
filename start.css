@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./background-images/start-bg.jfif');
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: rgb(2, 45, 7);
+    font-size: 50px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00521d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#startButton:hover {
+    background-color: #2980b9;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Page</title>
+    <link rel="stylesheet" href="story.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#" onclick="openModal('Inventory')">Inventory</a> 
+        <a href="#" onclick="openModal('Store')">Store</a> 
+        <a href="#" onclick="openModal('History')">History</a> 
+        <a href="start.html">Logout</a>
+    </nav>
+</header>
+
+<div id="container">
+    <div id="imageContainer">
+        <img src="items-images/grassy-plain.jpg" alt="grassy-plain">
+    </div>
+    <div id="dialogContainer">
+        <p>This is the bottom container for dialog.</p>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content" id="modalContent">
+        </div>
+        <button onclick="closeModal()" id="button">Close</button>
+    </div>
+</div>
+
+<script src="inventory.js"></script>
+</body>
+</html>

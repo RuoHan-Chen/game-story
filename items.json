@@ -1,0 +1,4 @@
+[
+    { "name": "chestplate", "image": "./items-images/chestplate.png", "stats": {}, "cost": 10, "durability": 100 },
+    { "name": "sword", "image": "./items-images/sword.png", "stats": {}, "cost": 10, "durability": 100 }
+]
